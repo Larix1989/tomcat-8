@@ -1,0 +1,45 @@
+server:
+  port: 9090
+
+spring:
+  jmx:
+    enabled: false
+  application:
+    name: serving-sphere-pivot
+
+#kernel:
+#  pivotConfig:
+#    metaResyncInterval: 1000
+#    metaWatchInterval: 3000
+#    leaseRenewalInterval: 3000
+#    leaseExpirationDuration: 15000
+#    actionTunnelProposalsMaximum: 512
+#    taskTunnelProposalsMaximum: 32
+#    zkServers: 10.0.169.140:2181
+#    zkConnectionTimeout: 15000
+#    zkSessionTimeout: 60000
+#  pivotRpcServerConfig:
+#    port: 8099
+#  grpcProxyServerConfig:
+#    maxInboundMessageSize: 8388608
+#    port: 8200
+#  httpProxyServerConfig:
+#    port: 8100
+#    maxThreads: 200
+#    minSpareThreads: 200
+#    maxConnections: -1
+#    initParameters:
+#      open-buffer-requests: true
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#      base-path: "/"
+#  endpoint:
+#    shutdown:
+#      enabled: true
+#  server:
+#    address: 127.0.0.1
+#    port: 1099
